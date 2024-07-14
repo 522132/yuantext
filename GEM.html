@@ -1,0 +1,91 @@
+<!-- 文档类型为html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 以UTF-8编码，避免中文乱码 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>邓紫棋 I am Gloria 巡回演唱会</title>
+    <!-- 方式二:内嵌样式 -->
+    <style>
+        h1{
+            color:rgb(255,0, 0);
+        }
+        #note{
+            color:orangered;
+        }
+        /* id选择器 */
+        #time{
+            color: rgb(4, 32, 92);
+            font-size: 15px;
+        }
+        /* 类选择器 */
+        .cla{
+            color: crimson;
+            font-size: 20px;
+            text-align: right;      /* 对齐方式 */
+        }
+        a{
+            color: blueviolet;
+            text-decoration: none;  /* 文本修饰 */
+        }
+        p{
+            text-indent: 35px;      /* 设置首行缩进 */
+            line-height: 40px;      /* 设置行高 */
+        }
+        #center{
+            width: 70%;
+            margin: 0 auto;    /* 边距：上，右，下，左 或者 上下，左右 */
+        }
+        body{
+            background-size: cover;
+            
+        }
+
+    </style>
+    <!-- 方式三:外联样式 -->
+     <link rel = "stylesheet" href="./css/news.css">
+</head>
+<body background="./背景.png" >
+    <div id = "center">
+        <!-- src是文件路径，width设置宽度 -->
+        <img src="./解解4.png"  width = "80" alt="解解美照">  <a href="https://www.bilibili.com/video/BV1rG4y177pP/?vd_source=bcd7fecbec3520087fff8d49db97766c" target="_blank">启示录</a> > <a href="https://cn.bing.com/images/search?view=detailV2&ccid=G1Qt5VNF&id=8122BF38081080454EFBC414C00A7971688F2949&thid=OIP.G1Qt5VNFQJ6dQ4dvbuHLYwHaJ4&mediaurl=https%3a%2f%2fts1.cn.mm.bing.net%2fth%2fid%2fR-C.1b542de55345409e9d43876f6ee1cb63%3frik%3dSSmPaHF5CsAUxA%26riu%3dhttp%253a%252f%252fn.sinaimg.cn%252fsinakd20110%252f120%252fw1080h1440%252f20220718%252f8dc6-218cc21c8f91db792bf3166bc3da4de4.jpg%26ehk%3dgossNEDToapx2%252f7lhVLnyfLQta8zoXHzwgqVnDpSR%252fg%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1440&expw=1080&q=%e9%82%93%e7%b4%ab%e6%a3%8b&simid=608026726916318507&FORM=IRPRST&ck=64510A56BE8AB26D3368DEEFC7B501EF&selectedIndex=0&itb=0&idpp=overlayview&ajaxhist=0&ajaxserp=0"  target="_blank">解解帅照</a>
+        <h1 >邓紫棋 I am Gloria 巡回演唱会</h1>
+        <p>7月10日，邓紫棋发文庆祝自己出道16周年，16年间她一共举办了182场个人演唱会，发布了117首原创作品，在文末她感谢了粉丝一直以来的陪伴。<br>  <!-- br换行 p段落 -->
+        <b>全文如下:</b>
+        </p>
+
+        <p> 今天是我出道16周年。从16岁到如今32岁，一转眼我就当了音乐人半辈子了。16年间，我举办了182场个人演唱会；发布了117首原创作品；演唱过粤语歌、国语歌、英语歌；<br>
+            也学唱过闽南语歌、马来语歌、西语歌、葡语歌、法语歌；甚至从一开始的中文原创到去年今天发布了一张西班牙语全原创专辑Revelación。
+
+        </p>
+        <p>
+            感谢大家一直在我身边，见证着我音乐路上的每步脚印 。也感谢上帝一次次在我不敢的时候，让我看到天空没有极限；
+            一次次在我害怕的时候，告诉我Gloria,爱里没有惧怕<br>
+        </p>    
+
+
+        <img src ="./gloria.jpg" width = 1000>
+
+        <p>
+            <b>全体欣赏音乐</b>
+        </p>
+        <video src="./视频1.mp4" controls width = 800> 现场视频 </video>
+        <h4>平行世界</h4>
+        <img src="./解解1.png" alt="平行世界">
+        <audio src = "G.E.M.邓紫棋 - 平行世界.MP3" controls></audio>
+        
+
+        <!-- span表示没有任何语义的标签 -->
+         <!-- 优先级 id选择器>类选择器>元素选择器 -->
+          <!-- font-size :字体大小,单位px(像素) -->
+
+        <h3 id = "note">广州,南宁.深圳,佛山,长沙,福州,成都,上海等城市巡演中</h3>
+        <hr>
+        <h6 id="time" >2024/7/11 14:06      </h6>   
+
+         <p class = "cla">  作者: 圆</p>
+        <hr>    <!-- 水平分割线 -->
+    </div>
+</body>
+</html>
